@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("file:///C:/Users/Jos%C3%A9%20Ram%C3%B3n%20Led%C3%B3n/Desktop/Portal%20HTML/Imagenes/FR1.jpg")
+}
+
+.form-register{
+	width: 400px;
+	background:#24303c; 
+	padding: 40px;
+	margin: auto;
+	margin-top: 50px; 
+	border-radius: 8px;
+	font-family: Gotham, 'Helvetica Neue';
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+}
+
+.form-register{
+	font-size: 26px;
+}
+
+.controls{
+	width: 100%;
+	background: #24303c;
+	padding: 10px;
+	border-radius: 3px;
+	margin-bottom: 16px;
+	border: 2px, solid #E1E1E1;
+	font-family:Gotham, 'Helvetica Neue';
+	font-size: 18px;
+	color: white;
+	
+}
+
+.form-register p{
+	height: 40px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 40px;
+
+}
+
+.form-register .botones{
+	width: 100%;
+	background: #1D79CD;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 18px;
+
+}
+
+.form-register .botones:hover{
+	background:#1064BC;
+}
